@@ -1,6 +1,5 @@
 import { TProduct } from "@/constants";
 import { CartContext } from "@/context/CartContext";
-import { formatNumbers } from "@/lib/utils";
 import { Button } from "@/lib/utils/ui/button";
 import { Star } from "lucide-react";
 import { useContext } from "react";

@@ -9,7 +9,7 @@ import { Heart, ShoppingCart } from "lucide-react";
 const Header = () => {
   const { itemAmount } = useContext(CartContext);
   return (
-    <header className="container flex items-center justify-between h-[60px]">
+    <header className="container flex items-center justify-between h-[60px] z-10">
       <Link
         to="/"
         className="font-bold text-[25px]"

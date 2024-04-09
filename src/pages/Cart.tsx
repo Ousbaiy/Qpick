@@ -8,11 +8,11 @@ import { formatNumbers } from "@/lib/utils";
 import CartProduct from "@/components/CartProduct";
 
 const Cart = () => {
-  const { cart, total } = useContext(CartContext);
+  const { total, cart } = useContext(CartContext);
 
   if (cart.length === 0) {
     return (
-      <div className="fixed inset-0 flex justify-center items-center flex-col gap-5 z-[-1]">
+      <div className="fixed inset-0 flex justify-center items-center flex-col gap-5">
         <h1 className="text-[20px] font-semibold text-[#1C1C27]">
           Корзина пуста
         </h1>
